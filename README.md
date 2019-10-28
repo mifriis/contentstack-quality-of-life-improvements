@@ -11,7 +11,7 @@ This script:
 
 ## How to install the script
 * Install [Greasemonkey (if you use Firefox)](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey (if you use Chrome)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
-* Click here https://github.com/mifriis/contentstack-quality-of-life-improvements/raw/master/contentstack-quality-of-life-improvements.user.js
+* [Click here to install the script](https://github.com/mifriis/contentstack-quality-of-life-improvements/raw/master/contentstack-quality-of-life-improvements.user.js)
 * The monkey should tell you the script is installed. Check monkeys running scripts list for confirmation.
 
 ## The code isn't the prettiest, can i help?
