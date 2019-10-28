@@ -4,6 +4,7 @@
 // @author      Michael Friis
 // @match        https://app.contentstack.com/
 // @version      0.4
+// @grant GM_addStyle
 // ==/UserScript==
 
 //Contentstack is a singlepage app. We need to listen to changes to page history, as well as run it on domloaded
@@ -143,4 +144,12 @@ function sortLanguages() {
     }
 }
 
+GM_addStyle(`
+    .language-border li:nth-child(3n+3) {
+        margin: 0 11px 11px 0;
+    }
 
+    .language-border li:nth-child(4n+4) {
+        margin: 0 0 11px;
+    }
+`);
