@@ -7,7 +7,7 @@ This script:
 * Adds a button to select everything english
 * Uses your screen space to provide a long list and 4 columns to choose between.
 
-![Bask in the glory of alphabetized language list](contentstack-sort-languages/alphabetized-language-list.PNG)
+![Bask in the glory of alphabetized language list](https://github.com/mifriis/contentstack-quality-of-life-improvements/raw/master/alphabetized-language-list.PNG)
 
 ## How to install the script
 * Install greasemonkey (firefox) or tampermonkey (chrome)
