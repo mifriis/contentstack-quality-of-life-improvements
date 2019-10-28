@@ -7,7 +7,7 @@ This script:
 * Adds a button to select everything english
 * Uses your screen space to provide a long list and 4 columns to choose between.
 
-![Bask in the glory of alphabetized language list](https://github.com/mifriis/contentstack-quality-of-life-improvements/raw/master/alphabetized-language-list.PNG)
+![Bask in the glory of alphabetized language list](https://github.com/mifriis/contentstack-quality-of-life-improvements/raw/master/alphabetized-language-list.PNG#1)
 
 ## How to install the script
 * Install [Greasemonkey (if you use Firefox)](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey (if you use Chrome)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
