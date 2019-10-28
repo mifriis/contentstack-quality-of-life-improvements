@@ -3,7 +3,7 @@
 // @description Different features to make life in contentstack slightly less frustrating.
 // @author      Michael Friis
 // @match        https://app.contentstack.com/
-// @version      0.4
+// @version      0.5
 // @grant GM_addStyle
 // ==/UserScript==
 
