@@ -3,7 +3,7 @@
 // @description Different features to make life in contentstack slightly less frustrating.
 // @author      Michael Friis
 // @match        https://app.contentstack.com/
-// @version      0.5
+// @version      0.6
 // @grant GM_addStyle
 // ==/UserScript==
 
@@ -152,4 +152,60 @@ GM_addStyle(`
     .language-border li:nth-child(4n+4) {
         margin: 0 0 11px;
     }
+
+    .entry-create .column-hidden .overflow-for-column .cs-table-body .table-cell-column,
+    .entry-list .column-hidden .overflow-for-column .cs-table-body .table-cell-column {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .cs-table .cs-table-top-header {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        height: 39px;
+    }
+
+    .entry-create .column-hidden .overflow-for-column .dummyhead,
+    .entry-list .column-hidden .overflow-for-column .dummyhead {
+        height: 37px;
+    }
+
+    .entry-create .column-hidden .overflow-for-column .table-cell-column,
+    .entry-list .column-hidden .overflow-for-column .table-cell-column {
+        padding: 6px 10px 8px 15px;
+    }
+
+    #main-container > div > div.page-content.page-content-large.ng-scope > div > div > div > div.entry-list > div > div.overflow-for-column-hidden > div > div.dummyhead > div.cs-checkbox.ng-scope > label > span.lbl {
+        top: 11px!important;
+    }
+
+    .entries .efw {
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
+    .entries .cs-form-group .entry-group-fields .group-fields .panel-group .panel-default .panel-body .cs-form-group {
+        margin-bottom: 0;
+    }
+
+    .entries .cs-form-group .entry-group-fields .single-group>div {
+        padding: 0px 6px;
+    }
+
+    /* Balloon popup */ 
+
+    .ui-pnotify {
+        width: initial!important;
+    }
+
+    .ui-pnotify-container {
+        padding: 12px 36px 12px 12px;
+        background-color: #444;
+        border-color: #444;
+    }
+    
+    /* intercom garbage */
+
+    #intercom-css-container, #intercom-container { display: none; }
+    
 `);
